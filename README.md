@@ -1,8 +1,8 @@
 # 🐍 Snake Game (JavaScript + Canvas)
 
-A feature-rich, browser-based Snake game built using modern HTML5, CSS, and the HTML5 Canvas API with data persistence.
+A browser-based Snake game built with HTML, CSS, JavaScript, and the Canvas API.
 
-The project provides an engaging arcade experience divided into three main sections:
+The project includes:
 
 * 🏠 **Start/Settings Page:** Configure your game preferences before diving in.
 * 🎮 **Gameplay Page:** The core interactive Snake game loop rendered on a responsive canvas.
@@ -11,8 +11,8 @@ The project provides an engaging arcade experience divided into three main secti
 ## ✨ Features
 
 * Playable Classic Snake game rendered on an HTML `<canvas>`
-* 3 adjustable board sizes (15×15, 20×20, 25×25)
-* 3 distinct speed levels (Easy, Medium, Hard)
+* 3 board sizes (15×15, 20×20, 25×25)
+* 3 speed levels (Easy, Medium, Hard)
 * Real-time score tracking during gameplay
 * Super food bonus mechanic (+10 points)
 * Top 5 games high-score leaderboard stored locally
