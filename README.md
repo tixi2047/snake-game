@@ -10,7 +10,7 @@ The project includes:
 
 ## ✨ Features
 
-* Playable Classic Snake game rendered on an HTML `<canvas>`
+* Playable Classic Snake game rendered using the HTML Canvas API
 * 3 board sizes (15×15, 20×20, 25×25)
 * 3 speed levels (Easy, Medium, Hard)
 * Real-time score tracking during gameplay
