@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="assets/image.jpg">
+    <title>RESULT PAGE</title>
+    <script src="assets/jQuary.js"></script>
+    <script src="assets/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <script src="results.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="resultsPageBody" onload="initializeResultsPage()">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="resultsSection">
+                    <div><br>
+                        <table class="table table-striped table-dark table-hover" id="topGamesTable">
+                            <th colspan="4" id="topGamesTitle">
+                                <div id="topGamesHeading">
+                                    <img src="assets/image.jpg" alt="">
+                                    <h1>TOP 5 GAMES</h1>
+                                </div>
+                            </th>
+                            <tr>
+                                <td></td>
+                                <td colspan="2" id="nameHeader"><h4>NAME</h4></td>
+                                <td><h4>SCORE</h4></td>
+                            </tr>
+                            <tr>
+                                <td id="firstPlace">1.</td>
+                                <td colspan="2" id="top1Name"></td>
+                                <td id="top1Score"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td id="secondPlace">2.</td>
+                                <td colspan="2" id="top2Name"></td>
+                                <td id="top2Score"></td>
+                            </tr>
+                            <tr>
+                                <td id="thirdPlace">3.</td>
+                                <td colspan="2" id="top3Name"></td>
+                                <td id="top3Score"></td>
+                            </tr>
+                            <tr>
+                                <td id="fourthPlace">4.</td>
+                                <td colspan="2" id="top4Name"></td>
+                                <td id="top4Score"></td>
+                            </tr>
+                            <tr>
+                                <td id="fifthPlace">5.</td>
+                                <td colspan="2" id="top5Name"></td>
+                                <td id="top5Score"></td>
+                            </tr>
+
+                        </table>
+                        <br><br><br>
+                        <table class="table table-striped table-dark table-hover" id="latestGameTable">
+                            <th colspan="2"><h2>LATEST GAME</h2></th>
+                            <tr>
+                                <td id="latestName"></td>
+                                <td id="latestScore"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <button type='button' class=" btn btn-success" id="startPageButton" onclick="goToStartPage()"><h3>START PAGE</h3></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="assets/image.jpg">
+    <title>START PAGE</title>
+    <script src="assets/jQuary.js"></script>
+    <script src="assets/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="startPageBody">
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-sm-12" id="pageHeader">
+                <h1>WELCOME!</h1>
+            </div>
+        </div>
+        <div class="row" id="startCardsRow">
+            <div class="col-sm-12 col-lg-6">
+                <div class="infoCircle">
+                    <div id="howToPlaySection">
+                        <h3>How to play?</h3>
+                        <br><br>
+                        <div id="gameDescription">
+                            In the Snake game, the player uses the arrow keys to move the snake across the board. When the snake touches food, it eats it and grows by one segment. Regular (red) food is worth 1 point, while super (yellow) food is worth 10 points. The game ends when the snake hits the edge of the screen or collides with itself. The goal is to make the snake as long as possible before that happens.
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div id="gameSettings">
+                    <h3 >Settings</h3>
+                    <div>
+                        <br><br>
+                        Table size: &nbsp; <input type="radio" name="tableSize" id="size15" value="0"><label for="size15"> 15 x 15 &nbsp;</label> 
+                        <input type="radio" name="tableSize" id="size20" value="1"><label for="size20"> 20 x 20 &nbsp;</label> 
+                        <input type="radio" name="tableSize" id="size25" value="2"><label for="size25"> 25 x 25 &nbsp;</label> 
+                        <br><br>
+                        Game level (snake speed): &nbsp; 
+                        <input type="radio" name="gameSpeed" id="speedEasy" value="easy"><label for="speedEasy"> Easy &nbsp;</label> 
+                        <input type="radio" name="gameSpeed" id="speedMedium" value="medium"><label for="speedMedium"> Medium &nbsp;</label> 
+                        <input type="radio" name="gameSpeed" id="speedHard" value="hard"><label for="speedHard"> Hard &nbsp;</label> 
+                        <br><br><br>
+                        <div>
+                            <button type="button" class="btn btn-primary" id="playButton"> PLAY </button>
+                            &nbsp;&nbsp;&nbsp;
+                            <button type="button" class="btn btn-danger" id="resultsButton"> RESULT PAGE </button>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
